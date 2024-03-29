@@ -18,7 +18,35 @@
 
     <body>
 
-        <header-component></header-component>
+        <header>
+            <div class="navbar-kernal">
+              <div class="navbar-logo">
+                <a href="index.html"><img id="ArborAdvisor" src="./images/ArborAdvisorLogo.png" href="index.html" alt="ALT TEXT" style="width: 170px;"></a>
+              </div>
+              <span class="navbar-outer">
+                <a class= "navbar-button" href="transportation.html" onclick="toggleContent('navbar-content-1')">
+                  Transportation
+                </a>  
+              </span>
+              <span class="navbar-outer">
+                <a class= "navbar-button" href="groceries.html">
+                  Groceries
+                </a>
+              </span class="navbar-outer">
+              <span class="navbar-outer">
+                <a class= "navbar-button" href="about.html">
+                  About
+                </a>
+              </span>
+              <span class="navbar-outer">
+                <a class= "navbar-button-hamburger">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </span>
+            </div>
+          </header>
+        <main>
+
 
         <div class="row" style="padding-top:90px;">
             <div class="col-sm" >
@@ -33,6 +61,7 @@
             <div class="col-sm" style="text-align: right;">
               <img src="./images/about/homeicon.png" style="height: 226px; width: 365px;">
             </div>
+
         </div>
         
         <h1 style = "margin-top: 80px; margin-bottom: 30px;"> Meet Our Team</h1>
@@ -92,7 +121,7 @@
                     <div class="overlay">
                         <h2>Kathy Wang</h2>
                         <p>UX Designer/Researcher</p>
-                    </div>
+                  </div>
                 </div>
             </div>
             <div class="col-sm">
@@ -107,7 +136,7 @@
                 </div>
             </div>
           </div>
-
+</main>
     <footer-component></footer-component>
 
     </body>

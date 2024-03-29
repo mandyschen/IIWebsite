@@ -201,7 +201,8 @@ border-bottom: 1px solid #ddd;
 }
 
 .navbar-outer {
-  height: 60px;
+  margin-right: 50px;
+  float: right;
 }
 
 .navbar-button {
@@ -214,8 +215,7 @@ border-bottom: 1px solid #ddd;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: black;
-  margin-right: 45px;
+  color: black
 }
 
 .navbar-content {
@@ -255,7 +255,7 @@ border-bottom: 1px solid #ddd;
   margin-right: 550px;
 } 
 
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1296px) {
     .navbar-button {
       display: none;
     }
@@ -450,7 +450,7 @@ z-index:1;
 }
 
 img.move:hover {
- -webkit-transform: skewX(-20deg);
+-webkit-transform: skewX(-20deg);
 -ms-transform: skewX(-20deg);
 transform: skewX(-20deg);
 -webkit-transform-origin:0 0;
