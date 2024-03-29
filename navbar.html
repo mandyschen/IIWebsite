@@ -13,85 +13,43 @@
         <link rel="stylesheet" href="style.css">
         <script src="connected.js" type="text/javascript" defer></script>
     </head>
-    <body>
+    <body style = "padding: 0% 0%;">
         <header>
-            <ul>
-                <li style="float:left; padding-left: 200px"><a class="active" href="index.html">Home</a></li>
-                <button class="lang-btn" onclick = "translationOptionOn()">
-                    <span>Language: English</span>
-                </button>
-                
-                <li class="dropdown" style="float:right">
-                  <a class="active" href="resources.html">Resources</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-        
-                <li class="dropdown" style="float:right">
-                  <a class="active" href="connect.html">Connect</a>
-                  <div class="dropdown-content" style="float:right;">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-        
-                <li class="dropdown" style="float:right">
-                  <a class="active" href="jobs.html">Jobs</a>
-                  <div class="dropdown-content" style="float:right;">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-        
-                <li class="dropdown" style="float:right">
-                  <a class="active" href="news.html">News</a>
-                  <div class="dropdown-content" style="float:right;">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-                
-                <li class="dropdown" style="float:right">
-                  <a class="active" href="groceries.html">Groceries</a>
-                  <div class="dropdown-content" style="float:right;">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-        
-                <li class="dropdown" style="float:right">
-                  <a class="active" href="about.html">About</a>
-                  <div class="dropdown-content" style="float:right;">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-              </ul>
-              
-              <div id="box" onclick = "translationOptionOff()">
-                <div id = "language-box" onclick = "translationOptionOff()">
-                  <ul id = "language-table" onclick = "translationOptionOff()">
-                      <li id = "language">
-                          <a>English</a>
-                      </li>
-                      <li id = "language">
-                          <a>Español</a>
-                      </li>
-                      <li id = "language">
-                          <a>中文</a>
-                      </li>
-                  </ul>
-                </div>
-              </div>
-              <div id = "deleter" onclick = "translationOptionOff()"></div>
+          <div class="navbar-kernal">
+            <div class="navbar-logo">
+              <img id="ArborAdvisor" src="./images/ArborAdvisorLogo.png" alt="ALT TEXT" style="width: 170px;">
+            </div>
+            <span class="navbar-outer">
+              <a class= "navbar-button" href="javascript:void(0);" onclick="toggleContent('navbar-content-1')">
+                Transportation
+              </a>  
+            </span>
+            <span class="navbar-outer">
+              <a class= "navbar-button" href="javascript:void(0);">
+                Groceries
+              </a>
+            </span class="navbar-outer">
+            <span class="navbar-outer">
+              <a class= "navbar-button" href="javascript:void(0);">
+                About
+              </a>
+            </span>
+            <span class="navbar-outer">
+              <a class= "navbar-button-hamburger">
+                <i class="fa fa-bars"></i>
+              </a>
+            </span>
+          </div>
         </header>
+        <script>
+          function toggleContent(contentId) {
+              var content = document.getElementById(contentId);
+              if (content.style.display === "block") {
+                  content.style.display = "none";
+              } else {
+                  content.style.display = "block";
+              }
+          }
+        </script>
     </body>
 </html>
