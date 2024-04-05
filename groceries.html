@@ -78,7 +78,7 @@
 
             <div class="groceryPopup" id="meijerPopup" style="border-radius: 10px; background-color: #FFFCF5;">
                 <button id="closeButton" onclick="closePopup()">&times</button>
-                <h1>Meijer ($$)</h1>
+                <h1>Whole Foods ($$)</h1>
                 <div class="row" style="padding: 15px;"> 
                     <div class="col-md-5">
                         <img src="./images/groceries/wholefoods.png" alt="default-image"></img>
@@ -159,7 +159,7 @@
 
             <div class="groceryPopup" id="walmartPopup" style="border-radius: 10px; background-color: #FFFCF5;">
                 <button id="closeButton" onclick="closePopup()">&times</button>
-                <h1>Walmart ($$)</h1>
+                <h1>Meijer ($$)</h1>
                 <div class="row" style="padding: 15px;"> 
                     <div class="col-md-5">
                         <img src="./images/groceries/AAmeijer.png" alt="default-image" style="width: 350px; height: 200px;"></img>
@@ -247,11 +247,53 @@
         <!-- Stores -->
 
         <div id="groceryStores" class="row"> 
+                <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                    <input type="image" style="width:100%;" src="./images/groceries/wholefoods.png" name="x2" class="btTxt submit" id="meijer" onclick="openPopup('meijer')" />
+                    <div style="display: flex; justify-content: space-between;">
+                        <p style="font-weight: bold">Whole Foods</p>
+                        <p style="font-weight: bold">$$$</p>
+                    </div>
+                    <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
+                </div>
+                <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                    <input type="image" style="width:100%; margin-top: 20px; margin-bottom: 25px;" src="./images/groceries/targetlogo.png" name="x2" class="btTxt submit" id="target" onclick="openPopup('target')" />
+                    <div style="display: flex; justify-content: space-between;">
+                        <p style="font-weight: bold">Target</p>
+                        <p style="font-weight: bold">$$</p>
+                    </div>
+                    <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
+                </div>
+                <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                    <div style="border-radius: 40px;">
+                        <input type="image" style="width:100%; margin-top: 50px; margin-bottom: 60px;" src="./images/groceries/costco.png" name="x2" class="btTxt submit" id="costco" onclick="openPopup('costco')" />
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <p style="font-weight: bold">Costco</p>
+                        <p style="font-weight: bold">$$</p>
+                    </div>
+                    <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
+                </div>
+                <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                        <input type="image" style="width:100%; height: 75%" src="./images/groceries/logo-meijer.png" name="x2" class="btTxt submit" id="walmart" onclick="openPopup('walmart')" />
+                        <div style="display: flex; justify-content: space-between;">
+                            <p style="font-weight: bold">Meijer</p>
+                            <p style="font-weight: bold">$</p>
+                        </div>
+                        <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
+                    </div>
+                </div>
+        </div>
+
+        <div hidden>
+
+
+            <!-- All -->
+            <div id="all" class="row"> 
                 <div class="col-md-3">
                     <input type="image" style="width:100%" src="./images/groceries/wholefoods.png" name="x2" class="btTxt submit" id="meijer" onclick="openPopup('meijer')" />
                     <div style="display: flex; justify-content: space-between;">
-                        <p style="font-weight: bold">Meijer</p>
-                        <p style="font-weight: bold">$$</p>
+                        <p style="font-weight: bold">Whole Foods</p>
+                        <p style="font-weight: bold">$$$</p>
                     </div>
                     <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
                 </div>
@@ -267,54 +309,14 @@
                     <input type="image" style="width:100%; margin-top: 50px; margin-bottom: 60px;" src="./images/groceries/costco.png" name="x2" class="btTxt submit" id="costco" onclick="openPopup('costco')" />
                     <div style="display: flex; justify-content: space-between;">
                         <p style="font-weight: bold">Costco</p>
-                        <p style="font-weight: bold">$$$</p>
-                    </div>
-                    <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
-                </div>
-                <div class="col-md-3">
-                        <input type="image" style="width:100%;" src="./images/groceries/walmart.png" name="x2" class="btTxt submit" id="walmart" onclick="openPopup('walmart')" />
-                        <div style="display: flex; justify-content: space-between;">
-                            <p style="font-weight: bold">Walmart</p>
-                            <p style="font-weight: bold">$</p>
-                        </div>
-                        <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
-                    </div>
-                </div>
-        </div>
-
-        <div hidden>
-
-
-            <!-- All -->
-            <div id="all" class="row"> 
-                <div class="col-md-3">
-                    <input type="image" style="width:100%" src="./images/groceries/default-image.png" name="x2" class="btTxt submit" id="meijer" onclick="openPopup('meijer')" />
-                    <div style="display: flex; justify-content: space-between;">
-                        <p style="font-weight: bold">Meijer</p>
                         <p style="font-weight: bold">$$</p>
                     </div>
                     <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
                 </div>
                 <div class="col-md-3">
-                    <input type="image" style="width:100%" src="./images/groceries/default-image.png" name="x2" class="btTxt submit" id="target" onclick="openPopup('target')" />
-                    <div style="display: flex; justify-content: space-between;">
-                        <p style="font-weight: bold">Target</p>
-                        <p style="font-weight: bold">$$</p>
-                    </div>
-                    <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
-                </div>
-                <div class="col-md-3">
-                    <input type="image" style="width:100%" src="./images/groceries/default-image.png" name="x2" class="btTxt submit" id="costco" onclick="openPopup('costco')" />
-                    <div style="display: flex; justify-content: space-between;">
-                        <p style="font-weight: bold">Costco</p>
-                        <p style="font-weight: bold">$$$</p>
-                    </div>
-                    <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
-                </div>
-                <div class="col-md-3">
-                        <input type="image" style="width:100%" src="./images/groceries/default-image.png" name="x2" class="btTxt submit" id="walmart" onclick="openPopup('walmart')" />
+                        <input type="image" style="width:100%; height: 75% " src="./images/groceries/logo-meijer.png" name="x2" class="btTxt submit" id="walmart" onclick="openPopup('walmart')" />
                         <div style="display: flex; justify-content: space-between;">
-                            <p style="font-weight: bold">Walmart</p>
+                            <p style="font-weight: bold">Meijer</p>
                             <p style="font-weight: bold">$</p>
                         </div>
                         <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
@@ -407,38 +409,39 @@
 
         <!-- Popup -->
 
-        <div class="groceryPopup" id="instacartPopup">
+        <div class="groceryPopup" id="instacartPopup" style="border-radius: 10px; background-color: #FFFCF5;">
             <button id="closeButton" onclick="closePopup()">&times</button>
             <h1>InstaCart ($$)</h1>
             <div class="row" style="padding: 15px;"> 
                 <div class="col-md-5">
-                    <img src="./images/groceries/default-image.png" alt="default-image"></img>
+                    <img src="./images/groceries/instacart.png" alt="default-image"></img>
                 </div>
                 <div class="col-md-7">
                     <h2>Overview</h2>
-                    <p>Text text text</p>
+                    <p style="font-size: 15px;">Major partners: Meijer, Kroger, Walmart, Costco</p>
                     <div class="row">
                         <div class="col-md-6">
                             <h3>Pros</h3>
+                            <p style="font-size: 15px; line-height: 20px">+ Large selection <br>+ Chat with shoppers</p>
                         </div>
                         <div class="col-md-6">
                             <h3>Cons</h3>
+                            <p style="font-size: 15px; line-height: 20px">+ Fees <br>+ “In Store” availability is not always accurate </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row" style="padding: 15px;">
                 <div class="col-md-5">
-                    <img src="./images/groceries/default-image.png" alt="default-image"></img>
-                    <a href="https://www.google.com/maps/dir//3145+Ann+Arbor-Saline+Rd,+Ann+Arbor,
-                    +MI+48103/@42.2395785,-83.8489458,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883cb01f3ab022dd:
-                    0x16ea254a5f4cf74b!2m2!1d-83.766545!2d42.239608?entry=ttu" target="_blank">
-                        <p style="color:gray">Find nearby store on Google Maps.</p>
-                    </a>
+                    <div class="col-md-7" style="margin-bottom: 30px; width: 70px;">
+                        <button class="medium-button" onclick="location.href='https://www.instacart.com/'">App Store</button>
+                    </div>
+                    <div class="col-md-7">
+                        <button class="medium-button" onclick="location.href='https://www.instacart.com/'">Google Play</button>
+                    </div>
                 </div>
                 <div class="col-md-7">
-                    <h2>Transportation</h2>
-                    <p>Text text text</p>
+                    <button class="medium-button" onclick="location.href='https://www.instacart.com/'">View Site</button>
                 </div>
             </div>
 
@@ -558,32 +561,32 @@
         <!-- Delivery Service -->
 
         <div id="delivery" class="row"> 
-            <div class="col-md-3">
-                <input type="image" style="width:100%" src="./images/groceries/instacart.png" name="x2" class="btTxt submit" id="instacart" onclick="openPopup('instacart')" />
+            <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                <input type="image" style="width:100%; margin-top: 10px;" src="./images/groceries/instacart.png" name="x2" class="btTxt submit" id="instacart" onclick="openPopup('instacart')" />
                 <div style="display: flex; justify-content: space-between;">
                     <p style="font-weight: bold">InstaCart</p>
                     <p style="font-weight: bold">$$</p>
                 </div>
                 <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
             </div>
-            <div class="col-md-3">
-                <input type="image" style="width:100%" src="./images/groceries/doordash.png" name="x2" class="btTxt submit" id="doordash" onclick="openPopup('doordash')" />
+            <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                <input type="image" style="width:100%; margin-top: 10px;" src="./images/groceries/doordash.png" name="x2" class="btTxt submit" id="doordash" onclick="openPopup('doordash')" />
                 <div style="display: flex; justify-content: space-between;">
                     <p style="font-weight: bold">DoorDash</p>
                     <p style="font-weight: bold">$$</p>
                 </div>
                 <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
             </div>
-            <div class="col-md-3">
-                <input type="image" style="width:100%" src="./images/groceries/freshdirect.png" name="x2" class="btTxt submit" id="freshdirect" onclick="openPopup('freshdirect')" />
+            <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                <input type="image" style="width:100%; margin-top: 10px;" src="./images/groceries/freshdirect.png" name="x2" class="btTxt submit" id="freshdirect" onclick="openPopup('freshdirect')" />
                 <div style="display: flex; justify-content: space-between;">
                     <p style="font-weight: bold">FreshDirect</p>
                     <p style="font-weight: bold">$$$</p>
                 </div>
                 <p style="line-height: 0;">&starf; &starf; &starf; &star; &star;</p>
             </div>
-            <div class="col-md-3">
-                    <input type="image" style="width:100%" src="./images/groceries/shipt.png" name="x2" class="btTxt submit" id="shipt" onclick="openPopup('shipt')" />
+            <div class="col-md-3" style="background-color: #E1DED8; border-radius: 25px;">
+                    <input type="image" style="width:100%; margin-top: 10px;" src="./images/groceries/shipt.png" name="x2" class="btTxt submit" id="shipt" onclick="openPopup('shipt')" />
                     <div style="display: flex; justify-content: space-between;">
                         <p style="font-weight: bold">Shipt</p>
                         <p style="font-weight: bold">$</p>
