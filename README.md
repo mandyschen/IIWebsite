@@ -1,6 +1,7 @@
 # ArborAdvisor
 ***
-Link to website: https://mandyschen.github.io/WashtenawWelcome/  
+Link to website: https://mandyschen.github.io/WashtenawWelcome/ 
+<br>
 An user-centric website aimed to condense resources for international, out of state, and first generation students in the Washtenaw County area focused on accommodating to various necessities such as groceries and transportation
 
 ## Home Page
