@@ -5,6 +5,7 @@ An user-centric website aimed to condense resources for international, out of st
 
 ## Home Page
 <img width="443" alt="Screenshot 2024-04-04 at 7 56 46 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/55274935-36c8-41fc-9869-b358c98210c5">
+<br>
 This is the home page of our website. Students can check newest events that are happening on and off campus in Ann Arbor, and also navigate to other resources such as transportation, groceries, and international center. 
 
 ## About Page
