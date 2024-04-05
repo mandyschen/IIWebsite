@@ -1,22 +1,23 @@
-# Washtenaw Welcome
+# ArborAdvisor
 ***
 Link to website: https://mandyschen.github.io/WashtenawWelcome/  
-A website designed to serve as a central information hub for immigrants to Washtenaw County. Includes news sources, job search help, community resources, and more.  
+An user-centric website aimed to condense resources for international, out of state, and first generation students in the Washtenaw County area focused on accommodating to various necessities such as groceries and transportation
 
-![Screenshot of front page of Washtenaw Welcome website.](https://github.com/mandyschen/WashtenawWelcome/blob/main/images/home_sc.png)
+## Home Page
+<img width="443" alt="Screenshot 2024-04-04 at 7 56 46 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/55274935-36c8-41fc-9869-b358c98210c5">
+This is the home page of our website. Students can check newest events that are happening on and off campus in Ann Arbor, and also navigate to other resources such as transportation, groceries, and international center. 
 
-## General Info
-***
-Status: IN PROGRESS  
-This website was created by a team at the University of Michigan's Tech for Social Good. It was designed with the goal of accessibility in mind. 
+## About Page
+<img width="522" alt="Screenshot 2024-04-04 at 8 09 11 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/1a77f297-a05d-4982-8dec-9dec36cd0793">
+Check out information about our mission and meet our team! 
 
-## Technologies
-***
-We used various technologies in order to implement this website.
-* HTML
-* CSS
-* JavaScript
-* BootStrap
+## Transportation Page
+<img width="523" alt="Screenshot 2024-04-04 at 8 11 13 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/5d0299b8-b000-4fca-ab26-8fd3f2a61319">
+Students can check out the bus schedule of every M-bus available on campus as well as their respective routes in this page. 
+
+## Groceries 
+<img width="524" alt="Screenshot 2024-04-04 at 8 15 13 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/233a76b3-b3ea-47c2-8c6b-c5915031165d">
+
 
 ## Next Steps
 ***
