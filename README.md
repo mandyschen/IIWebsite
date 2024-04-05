@@ -10,14 +10,18 @@ This is the home page of our website. Students can check newest events that are 
 
 ## About Page
 <img width="522" alt="Screenshot 2024-04-04 at 8 09 11 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/1a77f297-a05d-4982-8dec-9dec36cd0793">
+<br>
 Check out information about our mission and meet our team! 
 
 ## Transportation Page
 <img width="523" alt="Screenshot 2024-04-04 at 8 11 13 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/5d0299b8-b000-4fca-ab26-8fd3f2a61319">
+<br>
 Students can check out the bus schedule of every M-bus available on campus as well as their respective routes in this page. 
 
 ## Groceries 
 <img width="524" alt="Screenshot 2024-04-04 at 8 15 13 PM" src="https://github.com/mandyschen/WashtenawWelcome/assets/122251831/233a76b3-b3ea-47c2-8c6b-c5915031165d">
+<br>
+Look at the different places and options available for grocery shopping and delivery.
 
 
 ## Next Steps
