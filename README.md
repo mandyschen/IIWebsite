@@ -1,7 +1,6 @@
 # ArborAdvisor
 ***
 Link to website: https://mandyschen.github.io/WashtenawWelcome/ 
-<br>
 An user-centric website aimed to condense resources for international, out of state, and first generation students in the Washtenaw County area focused on accommodating to various necessities such as groceries and transportation
 
 ## Home Page
@@ -26,7 +25,6 @@ Look at the different places and options available for grocery shopping and deli
 
 
 ## Next Steps
-***
 Currently, the website is in progress. However, we plan to add several features that expand on both accessibility and ease of use. This includes:
 * API implementation for job and news pages
 * Translations into various languages
